@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual env
+.venv/
+
+# macOS
+.DS_Store
+
+# Data (원본/전처리 파일은 공개 저장소에 올리지 않음)
+raw_csv/
+clean_csv/
+meta_csv/
+*.csv
+
+# Logs / Ray
+*.log
+ray*/ 
