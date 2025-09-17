@@ -30,7 +30,7 @@
 | EV- SK rent 2022 | /home/data/hdd_new/sk_2022_csv | pn=0<br>file_input_path='../../../../data_files/EV/sk_2022_splited_by_carid'<br>file_output_path='../../../../data_files/EV/sk_2022_preproced/'<br>rmfile='pre'                    | bash run.sh |
 
 
-## 출력 데이터 다운로드(pw:evdataset1234!)
+## 출력 데이터 다운로드
 ```
 rsync -avhz -e 'ssh -p 9990' --progress --partial data@59.14.241.229:/home/data/hdd_new/sk_2022_preproced .
 ```
@@ -67,7 +67,7 @@ total running time : 18734.94 sec
 
 ---
 # 추가사항 (4, 6, 7, 8월 데이터)
-- 입력 데이터 (PW: keti1234!)
+- 입력 데이터 
 ```
 #4월 데이터
 rsync -avhz -e 'ssh -p 9595' --progress --partial sim@59.14.241.229:/home/sim/dataDisk/data/EV/sk_2204_split_by_carid_v2 .
@@ -82,7 +82,7 @@ rsync -avhz -e 'ssh -p 9595' --progress --partial sim@59.14.241.229:/home/sim/da
 rsync -avhz -e 'ssh -p 9595' --progress --partial sim@59.14.241.229:/home/sim/dataDisk/data/EV/sk_2208_split_by_carid .
 ```
 
-- 출력 데이터(PW: keti1234!)
+- 출력 데이터
 ```
 #4월 데이터
 rsync -avhz -e 'ssh -p 9595' --progress --partial sim@59.14.241.229:/home/sim/dataDisk/data/EV/sk_2204_preproced_v2 .
